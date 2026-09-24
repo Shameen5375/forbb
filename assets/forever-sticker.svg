@@ -1,0 +1,8 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 240 150">
+  <path fill="#fff1e0" d="M25 12h190c18 0 29 12 20 28l-13 23 9 34c5 19-8 35-28 35H30c-18 0-28-13-20-29l12-25L8 40C2 24 9 12 25 12Z"/>
+  <path fill="#b51e3c" d="M34 28h172c9 0 13 6 8 15l-9 18 7 25c3 10-4 18-15 18H35c-10 0-14-7-9-17l8-19-8-23c-3-9 0-17 8-17Z" opacity=".12"/>
+  <g fill="#b51e3c" font-family="Comic Sans MS, Trebuchet MS, cursive" font-style="italic" font-weight="700" text-anchor="middle">
+    <text x="120" y="91" font-size="24">u + me = forever</text>
+  </g>
+  <path fill="#e0425d" d="m47 47 6 10 11 2-8 8 2 11-11-5-10 5 2-11-8-8 11-2z"/>
+</svg>

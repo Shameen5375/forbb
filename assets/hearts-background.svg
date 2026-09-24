@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 720 900">
+  <rect width="720" height="900" fill="#f9ddea"/>
+  <g fill="none" stroke="#b51e3c" stroke-width="12" stroke-linecap="round" stroke-linejoin="round">
+    <path d="M-32 72 74 190 178 72c48-55 126 12 78 68L74 340-108 140c-48-54 28-123 76-68Z"/>
+    <path d="M505-46 594 58 683-46c42-48 111 10 68 60L594 192 437 14c-42-49 26-108 68-60Z"/>
+    <path d="M-84 428 8 535l92-107c43-49 112 10 69 60L8 674-153 488c-43-49 26-109 69-60Z"/>
+    <path d="M121 293 193 377l72-84c34-39 89 8 55 48l-127 146-127-146c-34-40 21-87 55-48Z"/>
+    <path d="M598 328 682 425l84-97c39-45 103 9 64 55L682 551 534 383c-39-46 25-100 64-55Z"/>
+    <path d="M174 746 264 850l90-104c42-48 108 10 67 59L264 984 107 805c-41-49 26-107 67-59Z"/>
+    <path d="M501 696 573 780l72-84c34-39 89 8 55 48L573 890 446 744c-34-40 21-87 55-48Z"/>
+  </g>
+  <g fill="#b51e3c" font-family="Georgia, serif" font-size="58" font-style="italic" text-anchor="middle">
+    <text x="360" y="490">love you!</text>
+  </g>
+</svg>

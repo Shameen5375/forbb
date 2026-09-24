@@ -1,0 +1,53 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#a8203b" />
+    <meta name="description" content="A tiny corner of the internet made for bb." />
+    <title>for bb, always</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <main class="page-shell">
+      <div class="topline" aria-hidden="true">
+        <span>made with a ridiculous amount of love</span>
+        <span>for bb</span>
+      </div>
+
+      <section class="envelope-stage" aria-label="A sealed letter for bb">
+        <div class="envelope" id="envelope">
+          <article class="letter" id="letter" hidden>
+            <p class="eyebrow">open me</p>
+            <h1 id="page-title">Happy Boyfriends Day to the <em>Best Boyfriend</em> to ever exist</h1>
+            <section class="link-list" aria-label="Three mystery gift boxes">
+              <a class="link-card link-card--dark" data-link="playlist" href="https://open.spotify.com/" target="_blank" rel="noreferrer" aria-label="Open mystery gift box one">
+                <img class="gift-image" src="assets/gift-playlist.svg" alt="" />
+              </a>
+              <a class="link-card link-card--cream" data-link="photos" href="photo.html" aria-label="Open mystery gift box two">
+                <img class="gift-image" src="assets/gift-photos.svg" alt="" />
+              </a>
+              <a class="link-card link-card--note" data-link="note" href="https://drive.google.com/file/d/14jTGLkHCJxIwi0Xf76iXI4kio4-pLvPw/view?usp=drive_link" target="_blank" rel="noreferrer" aria-label="Open mystery gift box three">
+                <img class="gift-image" src="assets/gift-note.svg" alt="" />
+              </a>
+            </section>
+            <p class="letter-signature">- Yours, Mimi</p>
+          </article>
+          <div class="envelope-flap" aria-hidden="true"></div>
+          <div class="envelope-pocket" aria-hidden="true"></div>
+          <img class="love-sticker" src="assets/love-sticker.svg" alt="Love you sticker" />
+          <img class="forever-sticker" src="assets/forever-sticker.svg" alt="U plus me equals forever sticker" />
+          <img class="as-sticker" src="assets/as-sticker.svg" alt="A plus S sticker" />
+          <img class="death-sticker" src="assets/death-sticker.svg" alt="Till death do us apart sticker" />
+          <img class="bff-sticker" src="assets/bff-sticker.svg" alt="My BFF sticker" />
+          <img class="xoxo-sticker" src="assets/xoxo-sticker.svg" alt="Xoxo sticker" />
+          <button class="seal" id="seal" type="button" aria-controls="letter" aria-expanded="false">press here if you &lt;3 me</button>
+        </div>
+      </section>
+    </main>
+    <script src="script.js"></script>
+  </body>
+</html>

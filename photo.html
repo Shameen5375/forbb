@@ -1,0 +1,55 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta name="theme-color" content="#fff1f0" />
+    <title>little memories for bb</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display:ital@0;1&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body class="photo-page">
+    <main>
+      <header class="photo-intro">
+        <p class="eyebrow">our little gallery</p>
+        <h1>tiny moments, <em>big love</em></h1>
+        <p>A moving wall of all our sweetest little moments.</p>
+      </header>
+      <section class="photo-marquee" aria-label="A scrolling collection of memories">
+        <div class="photo-column" data-photo-column></div>
+        <div class="photo-column" data-photo-column></div>
+        <div class="photo-column" data-photo-column></div>
+      </section>
+      <a class="back-link photo-back" href="letter.html">back to the little boxes</a>
+    </main>
+    <script>
+      const photoNames = [
+        "FullSizeRender", "IMG_3601", "IMG_3783", "IMG_3820", "IMG_3862", "IMG_3876",
+        "IMG_4239", "IMG_4275", "IMG_4287", "IMG_4411", "IMG_4480", "IMG_4493",
+        "IMG_4524", "IMG_4631", "IMG_4669", "IMG_4902", "IMG_4922", "IMG_4945",
+        "IMG_4978", "IMG_5042", "IMG_5085", "IMG_5242", "IMG_5508", "IMG_5604",
+        "IMG_5666", "IMG_5717", "IMG_5733", "IMG_5822", "IMG_5943", "IMG_6368",
+        "IMG_6554", "IMG_6594", "IMG_6644", "IMG_6713", "IMG_6770", "IMG_6922",
+        "IMG_7217", "IMG_7432", "IMG_7603", "IMG_8197", "IMG_8240", "IMG_8540",
+        "IMG_8829", "IMG_9404", "IMG_9421", "IMG_9723"
+      ];
+      const columns = document.querySelectorAll("[data-photo-column]");
+
+      photoNames.forEach((name, index) => {
+        const photo = document.createElement("figure");
+        photo.className = "photo-frame";
+        photo.innerHTML = `<img src="assets/photo-gallery/${name}.jpg" alt="A memory together">`;
+        columns[index % columns.length].append(photo);
+      });
+
+      photoNames.slice(0, 15).forEach((name, index) => {
+        const photo = document.createElement("figure");
+        photo.className = "photo-frame";
+        photo.innerHTML = `<img src="assets/photo-gallery/${name}.jpg" alt="A memory together">`;
+        columns[index % columns.length].append(photo);
+      });
+    </script>
+  </body>
+</html>
